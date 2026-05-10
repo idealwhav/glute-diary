@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "last_updated": "2026-05-11",
+    "description": "Deterministic gluten ingredient blocklist for Glute Diary. Match canonicalized (lowercased, punctuation-stripped) ingredient tokens against the lists below.",
+    "unsafe": [
+          "wheat", "wheat flour", "whole wheat", "durum", "semolina", "spelt",
+          "kamut", "farro", "einkorn", "emmer", "barley", "barley malt", "malt",
+          "malt extract", "malt vinegar", "rye", "triticale", "seitan", "couscous",
+          "bulgur", "brewers yeast", "graham flour", "panko", "breadcrumbs",
+          "udon", "soba"
+    ],
+    "caution": [
+          "oats", "modified food starch", "hydrolyzed vegetable protein",
+          "hydrolyzed plant protein", "soy sauce", "natural flavoring",
+          "natural flavors", "dextrin", "maltodextrin", "caramel color",
+          "roux", "thickener", "breading", "battered", "tempura", "curry roux",
+          "stock", "bouillon"
+    ],
+    "safe": [
+          "rice", "white rice", "brown rice", "corn", "cornmeal", "polenta",
+          "quinoa", "buckwheat", "millet", "sorghum", "amaranth", "teff",
+          "tapioca", "potato", "potato starch", "sweet potato",
+          "tamari", "coconut aminos",
+          "certified gluten-free oats", "almond flour", "coconut flour",
+          "chickpea flour", "rice flour"
+    ]
+}
