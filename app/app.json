@@ -1,0 +1,27 @@
+{
+    "expo": {
+          "name": "Glute Diary",
+          "slug": "glute-diary",
+          "version": "0.1.0",
+          "orientation": "portrait",
+          "userInterfaceStyle": "automatic",
+          "splash": {
+                  "resizeMode": "contain",
+                  "backgroundColor": "#FAFAF7"
+          },
+          "ios": {
+                  "supportsTablet": true,
+                  "bundleIdentifier": "com.glutediary.app",
+                  "infoPlist": {
+                            "NSCameraUsageDescription": "Glute Diary needs camera access to scan your meals and food labels.",
+                            "NSPhotoLibraryUsageDescription": "Glute Diary needs access to your photos to analyze meal images.",
+                            "NSMicrophoneUsageDescription": "Glute Diary uses the microphone for voice meal logging."
+                  }
+          },
+          "android": {
+                  "package": "com.glutediary.app",
+                  "permissions": ["CAMERA", "RECORD_AUDIO"]
+          },
+          "plugins": ["expo-camera"]
+    }
+}
